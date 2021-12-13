@@ -1,17 +1,4 @@
 import streamlit as st 
-import pandas as pd
-import numpy as np
-import os
-import pickle
-import warnings
-
-import matplotlib.pyplot as plt
-import plotly.express as px
-from collections import Counter
-
-from matplotlib.figure import Figure
-import seaborn as sns
-
 
 st.set_page_config(page_title="Finance platform", page_icon="https://www.freeiconspng.com/thumbs/heart-png/heart-png-15.png", layout='centered', initial_sidebar_state="collapsed")
 
