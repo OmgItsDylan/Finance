@@ -55,7 +55,7 @@ st.subheader("Monthly Savings: $" + str(round(monthly_savings, 2)))
 st.markdown("---")
 
 st.header("**Forecast Savings**")
-colForecast1, colForecast2 = st.beta_columns(2)
+colForecast1, colForecast2 = st.columns(2)
 with colForecast1:
     st.subheader("Forecast Year")
     forecast_year = st.number_input("Enter your forecast year (Min 1 year): ", min_value=0, format='%d')
