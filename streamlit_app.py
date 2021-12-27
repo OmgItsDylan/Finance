@@ -129,8 +129,13 @@ class Tweet(object):
     def component(self):
         return components.html(self.text, height=600)
 
+    
+st.header("** **")
+st.header("** **")
 st.title("Last Tweet from Financial Times")
 st.header("**7M followers**")
+st.header("** **")
+st.header("** **")
 
 t = Tweet("https://twitter.com/FinancialTimes/status/1475587337266552837").component()
 t = Tweet("https://twitter.com/FinancialTimes/status/1475579756825485313").component()
