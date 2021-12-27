@@ -132,4 +132,6 @@ class Tweet(object):
 
 t = Tweet("https://twitter.com/FinancialTimes/status/1475587337266552837").component()
 t = Tweet("https://twitter.com/FinancialTimes/status/1475579756825485313").component()
+t = Tweet("https://twitter.com/FinancialTimes/status/1475564688306024450").component()
+t = Tweet("https://twitter.com/FinancialTimes/status/1475557116727418882").component()
 
